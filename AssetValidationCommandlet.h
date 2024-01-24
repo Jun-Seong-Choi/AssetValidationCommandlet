@@ -9,8 +9,8 @@ UCLASS()
 class UAssetValidationCommandlet : public UCommandlet
 {
 	GENERATED_UCLASS_BODY()
-		//~ Begin UCommandlet Interface
-		virtual int32 Main(const FString& Params) override;
+	//~ Begin UCommandlet Interface
+	virtual int32 Main(const FString& Params) override;
 	//~ End UCommandlet Interface
 
 	bool FindFilesRecursive(const FString& Directory, TArray<FString>& Filenames);
